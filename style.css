@@ -9,6 +9,10 @@ main {
     height: 100%;
 }
 
+#teste {
+    color: red;
+}
+
 body {
     margin: 0;
     padding: 0;
