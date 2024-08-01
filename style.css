@@ -38,3 +38,34 @@ footer {
     width: auto;
     overflow: auto;
 }
+
+/*.maintable {
+    border-right: 1px solid gray;
+    width: 100%;
+    max-height: 100%; Garante que a div não exceda a altura da tela 
+    overflow: auto; Permite a rolagem
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    overflow: auto;
+}
+
+td, th {
+    text-align: center;
+    border-right: 1px solid gray;
+    vertical-align: middle;
+    padding: 20px;
+    color: white;
+}
+
+.semmark {
+    list-style-type: none;
+    font-size: 19px;
+}
