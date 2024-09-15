@@ -121,3 +121,7 @@ footer {
     overflow-x: hidden;
     box-sizing: border-box;
 }
+
+a {
+    color: gray;
+}

@@ -1,72 +1,94 @@
 <!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus Projetos</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="content/icones head/icone saber evolve.ico">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="icon" href="../content/icones head/icone saber evolve.ico">
 </head>
 <body>
     <header>
-        <a href="index.html" style="display: inline-block; vertical-align: middle;">
-            <img src="/content/logos/logo 150x150.png" style="max-height: 100%; max-width: 100%; vertical-align: middle;" />
-        </a>
+        <div class="divHeaderLogo">
+            <a href="../index.html" class="">
+                <img src="/content/logos/logo 500x500.png" class="logo-img" />
+            </a>
+        </div>
     
-        <nav style="display: inline-block; vertical-align: middle;">
-            <ul class="semmark" style="display: inline-block; margin: 0; padding: 0; list-style-type: none; text-align: center;">
-                <li style="display: inline-block; margin-right: 10px;"><a href="projetos.html" style="text-decoration: none;color:black">Projetos</a></li>
-                <li style="display: inline-block; margin-right: 10px;"><a href="clientes.html" style="text-decoration: none;color:black">Clientes</a></li>
-                <li style="display: inline-block; margin-right: 10px;"><a href="notices.html" style="text-decoration: none;color:black">Notícias</a></li>
-                <li style="display: inline-block; margin-right: 10px;"><a href="downloads.html" style="text-decoration: none;color:black">Downloads</a></li>
-                <li style="display: inline-block; margin-right: 10px;"><a href="privacy.html" style="text-decoration: none;color:black">Privacidade</a></li>
-                <li style="display: inline-block;"><a href="about.html" style="text-decoration: none;color:black">Sobre</a></li>
-            </ul>
-        </nav>
+        <div class="divHeaderPages">
+            <nav>
+                <ul>
+                    <li><a href="../paginas/projetos.html">Projetos</a></li>
+                    <li><a href="../paginas/clientes.html">Clientes</a></li>
+                    <li><a href="../paginas/notices.html">Notícias</a></li>
+                    <li><a href="../paginas/downloads.html">Downloads</a></li>
+                    <li><a href="../paginas/privacy.html">Privacidade</a></li>
+                    <li><a href="../paginas/about.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     
     <main>
         <div>
-            <h1 style="padding-top:7%">Notas do Saber</h1>
-            <img src="content/logos/logo_notas do saber preto e branco.png"/>
-            <p style="padding-bottom: 10px;">
+            <h1>Notas do Saber</h1>
+            <img src="../content/logos/logo_notas do saber preto e branco.png">
+            <p class="project-description">
                 aplicativo de notas aninhadas, onde você pode modularizar o conteúdo para ficar mais fácil a revisão
             </p>
             <h2>Apresentação</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/u2q0TaHrLJM?si=Q2qbvDsjzOeVpC70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        <h2>Download</h2>
-            <p style="padding-bottom: 30px;">poderá ser baixado em <a href="downloads.html" class="link" style="text-decoration: none;">downloads</a></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/u2q0TaHrLJM?si=Q2qbvDsjzOeVpC70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h2>Download</h2>
+            <p class="download-link">poderá ser baixado em <a href="downloads.html" class="link">downloads</a></p>
             <hr>
             <br>
         </div>
 
         <div id="resolve_tudo">
             <h1>Resolve Tudo</h1>
-            <img src="content/logos/logo_resolve tudo preto e branco.png" />
+            <img src="../content/logos/logo_resolve tudo preto e branco.png" class="project-img"/>
             <br>
-            <a href="https://vitukjkk.github.io/Resolve-Tudo/" style="text-align: center;font-style: italic;font-size: 30px;" target="_blank">prévia do site</a>
+            <a href="https://vitukjkk.github.io/Resolve-Tudo/" class="preview-link" target="_blank">prévia do site</a>
             <p>
                software inteligente que calcula em qualquer métrica 
             </p>
             <h2>Apresentação</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/6ihBN2qjNIo?si=KM4XijKj7dvqok_r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <h2>Download</h2>
-            <p>será disponibilizado em breve</p>
+            <p>calcule o que quiser</p>
             <hr>
             <br>
         </div>
 
         <div id="econvert">
-            <h1>EConvert</h1>
-            <img src="content/logos/EConvert.png">
+            <h1>Convert</h1>
+            <img src="../content/logos/EConvert.png" class="project-img">
             <br>
-            <a href="https://vitukjkk.github.io/EConvert/" style="text-align: center;font-style: italic;font-size: 30px;" target="_blank">prévia do site</a>
-            <p>será disponibilizado em breve</p>
+            <a href="https://vitukjkk.github.io/EConvert/" class="preview-link" target="_blank">prévia do site</a>
+            <p>aqui você poderá ver em qualquer métrica!</p>
             <h2>Apresentação</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Pb9DRr4fERg?si=vZQjKMqsRw2xhTto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <h2>Download</h2>
             <p>será disponibilizado em breve</p>
+            <hr>
+            <br>
+        </div>
+
+        <div id="cmhub">
+            <h1>CMHub</h1>
+            <img src="../content/logos/logo_CMHub.png">
+            <br>
+            <p>conecte-se com os outros!</p>
+            <h2>Apresentação</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/l3v0Erxv4VY?si=aMs2rPC7-OF_MjPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h2>Prévia</h2>
+            <a href="https://vitukjkk.github.io/CMHub/" target="_blank">clique aqui</a>
+            <br>
+            <br>
         </div>
     </main>
     <footer>
         <p>© 2020 - Evolução do Saber - <a href="privacy.html">Privacidade</a></p>
     </footer>
 </body>
+</html>
