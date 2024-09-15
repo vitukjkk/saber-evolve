@@ -1,0 +1,10 @@
+.divHeaderPages {
+    @media (min-width: 601px) and (max-width: 1200px) {
+        border: 1px solid yellow;
+        width: 100%;;
+    }
+    
+    @media (min-width: 1201px) {
+        /* Estilos para telas grandes */
+    }
+}
