@@ -29,7 +29,6 @@ header {
     display: flex;
     box-sizing: border-box;
     overflow-x: hidden;
-
     
     li {
         list-style: none;
@@ -57,14 +56,17 @@ header {
     }
     
     @media (min-width: 601px) and (max-width: 1200px) {
-        ul {
-            border: 1px solid red;
-            width: 100%;
+        nav {
+            display: flex;
         }
 
-        li {
+        ul {
+            display: flex;
+            width: 100%;
+            margin-top: 6rem;
+            justify-content: space-around;
         }
-        
+
         img {
             width: 17rem;
             height: auto;
@@ -72,6 +74,13 @@ header {
     }
       
     @media (min-width: 1201px) {
+        ul {
+            margin-top: 7rem;
+        }
+        li {
+            padding: 1rem;
+
+        }
         img {
             width: 19rem;
             height: auto;
@@ -87,8 +96,19 @@ main {
     box-sizing: border-box;
     width: 100%;
     overflow-x: hidden;
-    border: 1px solid purple;
     max-width: 100%;
+
+    @media (max-width: 600px) {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    @media (min-width: 601px) and (max-width: 1200px) {
+    }
+    @media (min-width: 1201px) {
+    }
 }
 
 footer {
@@ -100,5 +120,4 @@ footer {
     max-width: 100%;
     overflow-x: hidden;
     box-sizing: border-box;
-    border: 1px solid green;
 }
