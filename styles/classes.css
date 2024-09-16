@@ -1,15 +1,19 @@
 /* HEADER */
 
 .divHeaderPages {
-    @media (max-width: 600px) {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .divHeaderPages {
         display: flex;
         justify-content: right;
         padding-right: 3rem;
-        width: 100%;
     }
-        
-    @media (min-width: 601px) and (max-width: 1200px) {
-        width: 100%;
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    .divHeaderPages {
         justify-content: space-around;
     }
 }
@@ -34,4 +38,22 @@
         flex-direction: row;
         align-items: center;
     }
+}
+
+.divMainPosts {
+    text-align: left;
+    padding: 2%;
+    img {
+        display: flex;
+        margin: 0 auto;
+        justify-items: center;
+    }
+    #imgPostsNotasDoSaber {
+        width: 20rem;
+        max-width: 100%;
+    }
+}
+
+.divOneNotice {
+    padding: 1rem auto 1rem auto;
 }
