@@ -70,3 +70,8 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+.mainPrivacy {
+    text-align:left;
+    padding:2%;
+}
