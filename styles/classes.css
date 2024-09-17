@@ -71,7 +71,36 @@
     }
 }
 
+.divMainIconsRedes {
+    @media (max-width: 440px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @media (min-width: 441px) {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.divOneRede {
+    padding: .3%;
+    img {
+        width: 50px;
+        height: auto;
+    }
+}
+
+/* MAINS */
+
 .mainPrivacy {
     text-align:left;
     padding:2%;
+}
+
+
+.mainSobre {
+    padding: 2%;
+    h1 {
+        padding: 1% 0 1% 0;
+    }
 }

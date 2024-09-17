@@ -1,0 +1,6 @@
+#imgIndexTaskPilot {
+    @media (min-width: 601px) {
+        width: 500px;
+        height: 500px;
+    }
+}
