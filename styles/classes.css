@@ -2,6 +2,9 @@
 
 .divHeaderPages {
     width: 100%;
+    @media (min-width: 1200px) {
+        text-align: left;
+    }
 }
 
 @media (max-width: 600px) {
