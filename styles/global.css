@@ -40,7 +40,7 @@ header {
         text-decoration: none;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 800px) {
         li {
             display: block;
             width: 100%;
@@ -55,7 +55,7 @@ header {
         }     
     }
     
-    @media (min-width: 601px) and (max-width: 1200px) {
+    @media (min-width: 801px) and (max-width: 1200px) {
         nav {
             display: flex;
         }

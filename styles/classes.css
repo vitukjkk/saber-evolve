@@ -7,7 +7,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .divHeaderPages {
         display: flex;
         justify-content: right;
@@ -15,7 +15,7 @@
     }
 }
 
-@media (min-width: 601px) and (max-width: 1200px) {
+@media (min-width: 801px) and (max-width: 1200px) {
     .divHeaderPages {
         justify-content: space-around;
     }
